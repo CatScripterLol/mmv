@@ -1,6 +1,6 @@
 # mmv
 
-MMV CC Commands — Murder Mystery gears, ESP, jail.
+MMV CC Commands — Murder Mystery gears, ESP, jail, gun.
 
 ## Loadstring
 
@@ -8,19 +8,15 @@ MMV CC Commands — Murder Mystery gears, ESP, jail.
 loadstring(game:HttpGet("https://raw.githubusercontent.com/CatScripterLol/mmv/main/mmv_cc_commands.lua"))()
 ```
 
-Or direct:
+## Commands
 
-```lua
-loadstring(game:HttpGet("https://pastefy.app/kc31j0EK/raw"))()
-```
+- `/esp` `/unesp`
+- `/gun` `/ungun`
+- `/gear <name>` `/ungear <name|all>`
+- `/jail <name|me>` `/unjail <name|me>`
 
-## Features
-
-- ESP (Murderer / Sheriff / Innocent)
-- Jail / Unjail
-- Gears (max 3 at once)
-- Right Shift to toggle menu
+Right Shift toggles the menu.
 
 ## License
 
-See [LICENSE.md](LICENSE.md) (BSL, same as Bot repo).
+See [LICENSE.md](LICENSE.md) (BSL).
