@@ -1,6 +1,6 @@
 # mmv
 
-MMV CC Commands — Murder Mystery gears, ESP, jail, gun.
+MMV CC Commands — MatrixScope gun, practice panel, gears, ESP, jail.
 
 ## Loadstring
 
@@ -11,11 +11,18 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/CatScripterLol/mmv/ma
 ## Commands
 
 - `/esp` `/unesp`
-- `/gun` `/ungun`
+- `/gun` `/ungun` — MatrixScope (green neon laser gun)
+- `/panel` — practice UI (dummies, give gun)
 - `/gear <name>` `/ungear <name|all>`
 - `/jail <name|me>` `/unjail <name|me>`
 
-Right Shift toggles the menu.
+Right Shift toggles main menu.
+
+## Practice panel
+
+- Give / remove MatrixScope
+- Spawn / clear dummies
+- Toggle dummy move & jump
 
 ## License
 
